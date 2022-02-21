@@ -1,0 +1,51 @@
+/* || General styles */
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    align-items: center;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 21px;
+    color: gray;
+}
+
+a {
+    color: aquamarine
+}
+
+/**
+ * 1. Centers the content. Yes, it's a bit opinionated.
+ * 2. See the "width vs max-width" section
+ * 3. See the "Additional Padding" section
+ */
+ .wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+  
+    max-width: 960px; /* 2 */
+  
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+  }
+
+  footer {
+      float: right;
+      color: gray;
+  }
+
+  
